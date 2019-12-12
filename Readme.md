@@ -16,6 +16,8 @@ on the embedded platform of RaspberryPi using ROS environment. This package when
 launched runs the object detector network, trained on 78 different classes of traffic signs
 and can detect them at a frame rate of ~0.4 fps on Raspberry Pi3 without the NCS.
 
+![](images/embedded_Images.png)
+
 ---------
 ## Setting up the repository
 Clone this repository into a catkin workspace and run `catkin_make`. After that is
