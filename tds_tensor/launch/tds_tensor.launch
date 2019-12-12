@@ -1,0 +1,5 @@
+<launch>
+  <!-- Object detection for traffic Sign-->
+  <node pkg="tds_tensor" type="Object_detection_picamera_ROS.py" name="traffic_sign_detection"  output="screen">
+  </node>
+</launch>

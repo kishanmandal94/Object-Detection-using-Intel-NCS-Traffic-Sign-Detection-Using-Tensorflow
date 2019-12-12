@@ -1,0 +1,5 @@
+<launch>
+  <!-- My Package launch file -->
+  <node pkg="mobilenetssd" type="webcam.py" name="webcam" output="screen">
+  </node>
+</launch>
