@@ -1,7 +1,7 @@
 # Traffic Sign  Detection using Movidius Neural Compute Stick
 
 This package has two parts tds_tensor and mobilenetssd . The package tsd_tensor can detect german traffic signs 
-with a frame rate of ~0.4 FPS . The pmobilenetssd can perform object detection with a frame rate of ~7 FPS
+with a frame rate of ~0.4 FPS . The mobilenetssd can perform object detection with a frame rate of ~7 FPS
 
 ---------
 ## Setting up the repository
