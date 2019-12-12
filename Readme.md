@@ -12,7 +12,7 @@ to perform object detection using the Intel Neural Compute Stick.
 ```bash
 roslaunch tds_tensor tds_tensor.launch
 ```
-
+---------
 Running the above command will launch a window where detected traffic sign from the RasPi cam os displayed 
 along with the bounding box. 
 It also publishes the bounding box details such as image_id, co-ordinates and class name 
