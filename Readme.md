@@ -1,4 +1,4 @@
-# Real Time Object Detection using Movidius Neural Compute Stick and Traffic Sign Recognition using Tensorflow 
+# Real Time Object Detection using Intel Movidius Neural Compute Stick and Traffic Sign Recognition using Tensorflow 
 
 The Project is done in two parts:
 
