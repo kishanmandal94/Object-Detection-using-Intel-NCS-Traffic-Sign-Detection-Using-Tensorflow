@@ -2,8 +2,7 @@
 
 The Project is done in two parts:
 
-
-<img src="images/embedded_Images.png" width="200">
+![](https://github.com/kishanmandal94/Object-Detection-using-Intel-NCS-Traffic-Sign-Detection-Using-Tensorflow/blob/master/%20images/embedded_Images.png)
 
 Part 1: ​ The first requirement is to use the Intel Neural Compute Movidius Stick (NCS)
 with RaspberryPi to learn how to utilize it as an edge computing platform and improve the
