@@ -2,6 +2,9 @@
 
 The Project is done in two parts:
 
+
+<img src="images/embedded_Images.png" width="200">
+
 Part 1: ​ The first requirement is to use the Intel Neural Compute Movidius Stick (NCS)
 with RaspberryPi to learn how to utilize it as an edge computing platform and improve the
 inference speed and frame rate (FPS) of the Object detector. A pre-trained Caffe model
@@ -15,8 +18,6 @@ Part 2: ​ The focus is to detect Traffic sign using Tensorflow framework and d
 on the embedded platform of RaspberryPi using ROS environment. This package when
 launched runs the object detector network, trained on 78 different classes of traffic signs
 and can detect them at a frame rate of ~0.4 fps on Raspberry Pi3 without the NCS.
-
-![](images/embedded_Images.png)
 
 ---------
 ## Setting up the repository
