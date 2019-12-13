@@ -1,8 +1,8 @@
 # Real Time Object Detection using Intel Movidius Neural Compute Stick and Traffic Sign Recognition using Tensorflow 
 
-The Project is done in two parts:
-
 ![](https://github.com/kishanmandal94/Object-Detection-using-Intel-NCS-Traffic-Sign-Detection-Using-Tensorflow/blob/master/%20images/embedded_Images.png)
+
+The Project is done in two parts:
 
 Part 1: ​ The first requirement is to use the Intel Neural Compute Movidius Stick (NCS)
 with RaspberryPi to learn how to utilize it as an edge computing platform and improve the
@@ -13,10 +13,14 @@ good accuracy with fps ~(7-8 ). Since no appropriate pre-trained object detector
 under Caffe model was available that explicitly detects traffic signs, the reference to
 another deep learning framework such as ​ Tensorflow​ is done.
 
+P.s- [Link to Main Code file for Part-1](https://github.com/kishanmandal94/Object-Detection-using-Intel-NCS-Traffic-Sign-Detection-Using-Tensorflow/blob/master/mobilenetssd/src/webcam.py)
+
 Part 2: ​ The focus is to detect Traffic sign using Tensorflow framework and deploying it
 on the embedded platform of RaspberryPi using ROS environment. This package when
 launched runs the object detector network, trained on 78 different classes of traffic signs
 and can detect them at a frame rate of ~0.4 fps on Raspberry Pi3 without the NCS.
+
+P.s- [Link to Main Code file for Part-2](https://github.com/kishanmandal94/Object-Detection-using-Intel-NCS-Traffic-Sign-Detection-Using-Tensorflow/blob/master/tds_tensor/src/object_detection/Object_detection_picamera_ROS.py)
 
 ---------
 ## Setting up the repository
